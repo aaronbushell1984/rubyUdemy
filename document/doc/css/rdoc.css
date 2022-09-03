@@ -11,10 +11,10 @@
 
 .hide { display: none !important; }
 
-* { padding: 0 0 0 5px; margin: 0; }
+* { padding: 0; margin: 0; }
 
 body {
-  background: #fafafa;
+  background: #FFFFFF;
   font-family: Neometric-Medium, sans-serif;
   font-weight: 300;
 }
@@ -57,7 +57,7 @@ h4:target,
 h5:target,
 h6:target {
   margin-left: -10px;
-  border-left: 10px solid #f1edba;
+  border-left: 10px solid #DB2A38;
 }
 
 :link,
@@ -356,6 +356,7 @@ main h1 {
 main h2 {
   margin: 2em 0 0.5em;
   font-size: 1.5em;
+  color: #125992;
 }
 
 main h3 {
@@ -521,7 +522,9 @@ main .method-detail {
 main .method-detail:target {
   margin-left: -10px;
   border-left: 10px solid #DB2D37;
+  padding-left: 5px;
 }
+
 
 main .method-heading {
   position: relative;
@@ -593,15 +596,15 @@ pre {
   overflow: auto;
 }
 
-.ruby-constant   { color: #7fffd4; background: transparent; }
+.ruby-constant   { color: #9876AA; background: transparent; }
 .ruby-keyword    { color: #125992; background: transparent; }
-.ruby-ivar       { color: #eedd82; background: transparent; }
-.ruby-operator   { color: #125992; background: transparent; }
-.ruby-identifier { color: #ffdead; background: transparent; }
-.ruby-node       { color: #ffa07a; background: transparent; }
-.ruby-comment    { color: #DB2A38; background: transparent; }
-.ruby-regexp     { color: #ffa07a; background: transparent; }
-.ruby-value      { color: #7fffd4; background: transparent; }
+.ruby-ivar       { color: #BBBBBB; background: transparent; }
+.ruby-operator   { color: #DB2A38; background: transparent; }
+.ruby-identifier { color: #BBBBBB; background: transparent; }
+.ruby-node       { color: #BBBBBB; background: transparent; }
+.ruby-comment    { color: #629755; background: transparent; }
+.ruby-regexp     { color: #BBBBBB; background: transparent; }
+.ruby-value      { color: #CC7832; background: transparent; }
 
 /* @end */
 
