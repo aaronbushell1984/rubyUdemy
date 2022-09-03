@@ -11,7 +11,7 @@
 
 .hide { display: none !important; }
 
-* { padding: 0; margin: 0; }
+* { padding: 0 0 0 5px; margin: 0; }
 
 body {
   background: #fafafa;
@@ -194,6 +194,7 @@ main {
   padding-left: 20px;
   min-width: 340px;
   font-size: 16px;
+  letter-spacing: 1px;
 }
 
 main h1,
@@ -225,13 +226,13 @@ nav {
 nav .nav-section {
   margin-top: 2em;
   border-top: 2px solid #aaa;
-  font-size: 90%;
+  font-size: 16px;
   overflow: hidden;
 }
 
 nav h2 {
   margin: 0;
-  padding: 2px 8px 2px 8px;
+  padding: 10px 8px 2px 8px;
   background-color: #e8e8e8;
   color: #555;
   font-size: 125%;
@@ -241,7 +242,7 @@ nav h2 {
 nav h3,
 #table-of-contents-navigation {
   margin: 0;
-  padding: 2px 8px 2px 8px;
+  padding: 10px 8px 10px 8px;
   text-align: right;
   background-color: #e8e8e8;
   color: #555;
@@ -265,7 +266,7 @@ nav p {
 
 #home-section img {
   width: 180px;
-  padding: 10px 40px;
+  padding: 20px 40px;
   object-fit: contain;
 }
 
@@ -283,7 +284,7 @@ nav p {
 #search-field-wrapper {
   border-top: 1px solid #aaa;
   border-bottom: 1px solid #aaa;
-  padding: 3px 8px;
+  padding: 10px 10px;
   background-color: #e8e8e8;
   color: #555;
 }
@@ -587,7 +588,7 @@ pre {
   box-shadow: 1px 1px 5px 1px rgb(0 0 0 / 25%);
   margin: 0.5em 0;
   padding: 0.5em;
-  background: #010501;
+  background: #2b2727;
   color: white;
   overflow: auto;
 }
