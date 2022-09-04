@@ -11,3 +11,12 @@ RSpec.describe Array do
     end
   end
 end
+
+RSpec.describe Array do
+  subject = [1, 2]
+  context 'two items in array' do
+    it 'should contain 1 and 2' do
+      expect(subject).to eq([1, 2])
+    end
+  end
+end
