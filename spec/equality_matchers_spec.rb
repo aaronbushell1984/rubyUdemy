@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-#
+
 RSpec.describe 'Equality_matchers' do
   let(:a) { 3.0 }
   let(:b) { 3 }
