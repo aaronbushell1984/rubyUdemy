@@ -1,13 +1,15 @@
+# frozen_string_literal: true
+
 def prompt_capture_numbers
-  print "First Number:"
+  print 'First Number:'
   first = gets.chomp.to_f
-  print "Second Number:"
+  print 'Second Number:'
   second = gets.chomp.to_f
-  return first, second
+  [first, second]
 end
 
 def prompt_capture_operator
-  print "Operator: <+, -, *, /, %>"
+  print 'Operator: <+, -, *, /, %>'
   gets.chomp
 end
 
@@ -35,15 +37,15 @@ end
 
 def calculate(operator, first, second)
   case operator
-  when "+"
+  when '+'
     puts multiply(first, second)
-  when "-"
+  when '-'
     puts subtract(first, second)
-  when "/"
+  when '/'
     puts divide(first, second)
-  when "*"
+  when '*'
     puts multiply(first, second)
-  when "%"
+  when '%'
     puts modulus(first, second)
   else
     puts "#{operator} is not a valid operator"
