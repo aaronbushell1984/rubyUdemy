@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require '../testing/custom_error'
+require_relative '../../RSpecCourse/custom_error'
 
 RSpec.describe 'Raise_error_matcher' do
 

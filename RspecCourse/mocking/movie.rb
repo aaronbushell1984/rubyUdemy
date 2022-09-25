@@ -15,8 +15,9 @@ class Movie
   def start_shooting
     return unless actor.ready?
 
-    actor.act
-    actor.fall_off_ladder
-    actor.light_on_fire
+    puts actor.act
+    puts actor.fall_off_ladder
+    puts actor.light_on_fire
+    puts actor.act
   end
 end

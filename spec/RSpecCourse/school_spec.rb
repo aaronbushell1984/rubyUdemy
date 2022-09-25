@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require '../testing/school'
+require_relative '../../RSpecCourse/school'
 
 RSpec.describe School do
   it 'has a name' do

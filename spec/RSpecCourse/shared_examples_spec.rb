@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require '../testing/shared_example'
+require_relative '../../RSpecCourse/shared_example'
 
 RSpec.shared_examples 'a Ruby object with three elements' do
   it 'returns the number of items' do

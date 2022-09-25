@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require '../testing/programming_language'
+require_relative '../../RSpecCourse/programming_language'
 
 RSpec.describe ProgrammingLanguage do
   context 'when new without argument' do

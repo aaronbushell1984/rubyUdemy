@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require '../testing/card'
+require_relative '../../RspecCourse/card'
 
 RSpec.describe Card do
   let(:card) { Card.new('Ace', 'Spades') }

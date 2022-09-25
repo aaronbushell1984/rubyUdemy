@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-## HotChocolate demonstrates the use of respond_to matcher in testing
+## HotChocolate demonstrates the use of respond_to matcher in RspecCourse
 class HotChocolate
   def drink
     'Delicious'

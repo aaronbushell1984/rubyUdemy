@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require '../testing/hot_chocolate'
+require_relative '../../RSpecCourse/hot_chocolate'
 
 RSpec.describe HotChocolate do
   context 'when using respond_to an object' do

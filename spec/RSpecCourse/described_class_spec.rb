@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require '../testing/king'
+require_relative '../../RSpecCourse/king'
 
 RSpec.describe King do
   subject { described_class.new('Boris') }

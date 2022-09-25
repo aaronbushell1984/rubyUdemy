@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require '../testing/professional_wrestler'
+require_relative '../../RSpecCourse/professional_wrestler'
 
 RSpec.describe 'Have_attributes_matcher' do
   context ProfessionalWrestler.new('Steve Austin', 'Stunner') do
